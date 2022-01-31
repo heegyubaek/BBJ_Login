@@ -1,8 +1,10 @@
 package com.bbj.bbj_login.repository;
 
 import com.bbj.bbj_login.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
+
 
 public class MemoryMemberRepository implements MemberRepository{
 
